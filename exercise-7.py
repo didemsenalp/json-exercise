@@ -10,6 +10,3 @@ class Vehicle(object):
 
 dict_of_data = json.loads(str_of_data)
     
-pass_parameters = Vehicle(**dict_of_data)
-
-print (pass_parameters.name, pass_parameters.engine, pass_parameters.price)
