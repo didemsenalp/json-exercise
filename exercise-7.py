@@ -9,4 +9,6 @@ class Vehicle(object):
         self.price = price
 
 dict_of_data = json.loads(str_of_data)
+
+print(dict_of_data)
     
